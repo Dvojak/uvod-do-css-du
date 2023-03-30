@@ -64,9 +64,8 @@ h2 {
 h3 { 
   font-size: 1.2em;
   /* Nadpisy budou podtrženy tenkou tečkovanou čarou, jejíž barva bude shodná s barvou písma */ 
-   display: inline-block;
-    padding-right: 75%;
-    border-bottom: 1px dotted #888;
+  text-decoration: dotted;
+  
 }
 
 p, li {
@@ -94,11 +93,8 @@ li {
     * použitý font bude o 10% menší než základní písmo
     * písmo bude nakloněné (kurzíva)
 */
-p.poznamka{
-border-left: solid 10px gray;
-padding-left: 50px;
-font-size: 90%;
-font-style: italic;
+poznamky{
+
 }
 footer {
   color: gray;
@@ -110,8 +106,8 @@ footer {
 strong {
   font-weight: bold;
 }
-p#bottom {
-  text-align: center;
+code {
+  font-family: monospace;
 }
 
 
